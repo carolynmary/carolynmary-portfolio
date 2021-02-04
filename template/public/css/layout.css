@@ -40,6 +40,10 @@ header {
    overflow: hidden;
 }
 
+.responsive-headline{
+   font-size: 80px !important;
+}
+
 /* vertically center banner section */
 header:before {
    content: '';

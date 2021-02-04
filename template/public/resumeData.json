@@ -1,0 +1,82 @@
+{
+  "main": {
+    "name":"Carolyn Mary Stolze",
+    "occupation":"Full stack developer and creative director",
+    "description":"Ready to leverage this unique combination of technical and design skills mixed with a passion for establishing meaningful relationships, by passing along knowledge to those simultaneously learning from (collaboration at its finest), to create cutting edge designs, user experiences and technologies that are beneficial to the diverse, global audience.",
+    "image":"cms.png",
+    "bio":"Full stack developer with an extensive background in creative arts, branding and advertising. Excited to leverage this unique combination of technical and design skills mixed with a passion for establishing meaningful relationships, by passing along knowledge to those simultaneously learning from (collaboration at its finest), to create cutting edge designs, user experiences and technologies that are beneficial to the diverse, global audience.",
+    "contactmessage":"What's my next collaboration? Drop me a line and let's figure it out!",
+    "email": "carolyn@carolynmary.com",
+    "phone": "631-523-4239",
+    "address":{
+      "city":"Rockville Centre",
+      "state":"New York"
+    },
+    "website": "http://www.carolynmary.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/carolynmarystolze/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/carolynmary",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Burger Logger",
+        "category":"Restaurant app that lets users input burgers to eat then move it to the devoured list.",
+        "image":"BurgerLogger.gif",
+        "url":"https://github.com/carolynmary/burger-logger"
+      },
+      {
+        "title":"Employee Search",
+        "category":"Searchable directory with capabilities to sort by name or filter using a search.",
+        "image":"empDir-demo.gif",
+        "url":"https://github.com/carolynmary/employee-search"
+      },
+      {
+        "title":"Employee Management System",
+        "category":"Content Management System to organize business’ departments, roles and employees.",
+        "image":"EmpMgmtSys.gif",
+        "url":"https://github.com/carolynmary/employee-management-system"
+      },
+      {
+        "title":"Spotted",
+        "category":"A bird spotting app to share photos.",
+        "image":"spotted.png",
+        "url":"https://github.com/carolynmary/spotted"
+      },
+      {
+        "title":"Note Taker",
+        "category":"app to keep track of info by writing down, editing and saving notes.",
+        "image":"noteTakerDemo.gif",
+        "url":"https://github.com/carolynmary/note-taker"
+      },
+      {
+        "title":"Budget Tracker",
+        "category":"Track your withdrawals and deposits with this budget tracker that works online and offline!",
+        "image":"budget-demo.gif",
+        "url":"https://github.com/carolynmary/budget-tracker"
+      },
+      {
+        "title":"$HustleData",
+        "category":"app that uses historical financial data to answer company specific stock market questions.",
+        "image":"HustleDataScreenshot.png",
+        "url":"https://github.com/carolynmary/hustle-data"
+      },
+      {
+        "title":"ReadMe Generator",
+        "category":"CLI that makes creating your README.md fast and easy.",
+        "image":"screenshot-readme.png",
+        "url":"https://github.com/carolynmary/readme-generator"
+      }
+    ]
+  }
+}
