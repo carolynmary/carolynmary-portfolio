@@ -1,6 +1,6 @@
 import React from "react";
 import bird from "../../images/bird.svg"
-import "./icons.css"
+import "./icons.scss"
 
 function Bird() {
     return (

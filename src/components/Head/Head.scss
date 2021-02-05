@@ -1,11 +1,10 @@
 .header {
   height: 170px;
-}
-
-.header a {
-  display: grid;
-  place-items: center;
-  padding-left: 15px;
+  a {
+    display: grid;
+    place-items: center;
+    padding-left: 15px;
+  }
 }
 
 .logo {

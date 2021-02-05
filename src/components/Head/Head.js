@@ -1,18 +1,25 @@
 import React from "react";
-import logo from "../../images/logo_2018-rgb.png";
-import "./Head.css";
+import { Col, Row } from "../Grid";
+import logo from "../../images/spotted-logo.svg";
+import { FaBars } from 'react-icons/fa';
+import "./Head.scss";
 
-const Head = () => {
+const Head = ({ handleToggleSidebar }) => {
 
 	return (
-		<div className="row">
-			<div className="col">
-				<header className="header">
-					<a href="/"><img src={logo} alt="carolyn mary stolze" className="logo" /></a>
-				</header>
-			</div>
-		</div>
+		<Row>
+			<Col size="12">
+				{/* hamburger */}
+				<div className="btn-toggle" onClick={() => handleToggleSidebar(true)}>
+					<FaBars />
+				</div>
 
+				{/* logo */}
+				<header className="header">
+					<a href="/"><img src={logo} alt="spotted" className="logo" /></a>
+				</header>
+			</Col>
+		</Row>
 	);
 }
 

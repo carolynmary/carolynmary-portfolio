@@ -2,13 +2,17 @@ import React from 'react';
 import { ProSidebar, Menu, MenuItem, SidebarHeader, SidebarContent } from 'react-pro-sidebar';
 import Switch from 'react-switch';
 import { Link } from 'react-router-dom';
-import Bird from "../Icons/Bird.js"
+import Bird from "../Icons/Bird"
+import Clinic from "../Icons/Clinic"
+import Info from "../Icons/Info"
 
-const Nav = ({ collapsed, handleCollapsedChange }) => {
+const Nav = ({ collapsed, toggled, handleCollapsedChange, handleToggleSidebar }) => {
 	return (
 		<ProSidebar
 			collapsed={collapsed}
+			toggled={toggled}
 			breakPoint="sm"
+			onToggle={handleToggleSidebar}
 		>
 
 			<SidebarHeader>
@@ -29,9 +33,9 @@ const Nav = ({ collapsed, handleCollapsedChange }) => {
 
 			<SidebarContent>
 				<Menu iconShape="circle">
-					<MenuItem icon="" >Portfolio<Link to={["/", "/portfolio"]} /></MenuItem>
-					<MenuItem icon="" >About<Link to="/about" /></MenuItem>
-					<MenuItem icon="" >Contact<Link to="/contact" /></MenuItem>
+					<MenuItem icon={<Bird />} >Spottings<Link to="/feed" /></MenuItem>
+					<MenuItem icon={<Info />}>Info<Link to="/info" /></MenuItem>
+					<MenuItem icon={<Clinic />}>Clinic<Link to="/clinic" /></MenuItem>
 				</Menu>
 			</SidebarContent>
 
